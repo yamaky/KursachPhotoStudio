@@ -1,0 +1,15 @@
+h1 {
+    opacity: .7;
+    text-align: center;
+}
+.container p {
+    opacity: .9;
+    text-align: center;
+}
+
+.colums{
+    margin: 50px 0 0 200px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr;
+}

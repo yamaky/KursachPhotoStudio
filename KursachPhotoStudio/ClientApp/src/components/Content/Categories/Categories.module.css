@@ -1,0 +1,16 @@
+.container{
+}
+
+.button_category{
+    margin: 30px 15px 0 15px;
+    width: 175px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e26d63;
+    background-color: transparent;
+    color: #e26d63;
+    text-decoration: none;
+}

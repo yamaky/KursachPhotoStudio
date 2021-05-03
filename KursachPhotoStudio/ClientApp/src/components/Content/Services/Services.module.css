@@ -1,0 +1,56 @@
+.container_services{
+    margin: 30px 0 0 0;
+    width: 520px;
+    border-radius: 4px;
+    border: 1px;
+    border-style: solid;
+    border-color: #e26d63;
+    background-color: transparent;
+    color: #e26d63;
+    text-decoration: #e26d63;
+    opacity: 0.9;
+}
+.area_service{
+    margin: 20px 25px 0 25px;
+    font-size: 16px;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.area_service p{
+    margin: auto auto 5px auto;
+    text-align: center;
+}
+hr{
+    color: #e26d63;
+    border-color: #e26d63;
+    margin: 0 10px;
+}
+.button_service{
+    margin: 5px;
+    width: 60px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px;
+    border-style: solid;
+    border-color: #57d2dd;
+    background-color: transparent;
+    color: #57d2dd;
+    text-decoration: #57d2dd;
+    opacity: 0.5;
+}
+.button_add{
+   grid-column-start: 3;
+    margin: auto auto 5px auto;
+}
+.button_edit{
+    grid-column-start: 4;
+    margin: auto auto 5px auto
+}
+.button_delete{
+    grid-column-start: 5;
+    background-color: #57d2dd;
+    color: black;
+    margin: auto auto 5px auto
+}
