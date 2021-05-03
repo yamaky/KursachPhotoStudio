@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Фотостудии",
+        "service": [
+            {
+                "id": 1,
+                "name": "Ballet",
+                "price": 500,
+                "categoryId": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Бронирование",
+        "service": [
+            {
+                "id": 4,
+                "name": "MANSARDA",
+                "price": 10,
+                "categoryId": 2
+            },
+            {
+                "id": 5,
+                "name": "Начальный уровень фотошколы",
+                "price": 1500,
+                "categoryId": 2
+            },
+            {
+                "id": 6,
+                "name": "Продвинутый уровень фотошколы",
+                "price": 1500,
+                "categoryId": 2
+            },
+            {
+                "id": 7,
+                "name": "Новогодняя",
+                "price": 600,
+                "categoryId": 2
+            },
+            {
+                "id": 8,
+                "name": "Модельная",
+                "price": 750,
+                "categoryId": 2
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Фотошкола",
+        "service": [
+            {
+                "id": 3,
+                "name": "STALINKA",
+                "price": 10,
+                "categoryId": 3
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Фотосессии",
+        "service": [
+            {
+                "id": 2,
+                "name": "Cherdack",
+                "price": 500,
+                "categoryId": 4
+            }
+        ]
+    }
+]
