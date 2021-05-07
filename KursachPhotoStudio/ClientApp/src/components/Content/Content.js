@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import s from './Content.module.css'
 import Categories from "./Categories/Categories";
 import Services from "./Services/Services";
+import {Route} from "react-router-dom";
 
 class Content extends Component {
     constructor(props) {
@@ -13,12 +14,12 @@ class Content extends Component {
         return (
             <div>
                 <div className="container text-light">
-                    <h1 className="display-1 ">PhotoStudio</h1>
-                    <p className="lead">There are no rules for good photos, there are only good photos.</p>
+                    <h1>PhotoStudio</h1>
+                    <p>There are no rules for good photos, there are only good photos.</p>
                 </div>
                 <div className="colums">
                     <Categories/>
-                    <Services/>
+                    <Route path='/category/:id/' component={Services}/>
                 </div>
             </div>
         )

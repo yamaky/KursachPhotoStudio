@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import {NavLink} from "react-router-dom";
+import f from "./Footer.module.css";
 import logo from './logo.png';
 
 class Footer extends Component {
@@ -10,7 +11,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div class="container">
+            <div class="container_footer">
                 <div class="row">
                     <div class="col-md-3 footer-about wow fadeInUp">
                         <img class="logo-footer" src={logo} height="30" alt={"logo"} alt="logo-footer" data-at2x="./logo.png"/>

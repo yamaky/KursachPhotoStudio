@@ -12,6 +12,7 @@ class Header extends Component {
 
     render() {
         return (
+
             <nav className="navbar navbar-expand-lg navbar-dark font-weight-light">
                 <NavLink className="navbar-brand" to={"/"}>
                     <img src={logo} height="30" alt={"logo"}/>

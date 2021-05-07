@@ -13,4 +13,19 @@
     background-color: transparent;
     color: #e26d63;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.link_category{
+    color: #e26d63;
+    text-decoration: none;
+}
+.link_category:hover {
+    color: #e26d63;
+    text-decoration: none;
+}
+.link_category:active {
+    color: #ffff;
+    text-decoration: none;
 }

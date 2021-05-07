@@ -14,7 +14,7 @@ class Categories extends Component {
     }
 
     async getCategory(){
-        var request = await fetch("/api/services/", {
+        var request = await fetch("/api/category/", {
             method: "GET",
             mode: "cors",
             credentials: "include"
@@ -30,7 +30,7 @@ class Categories extends Component {
             <div className="container">
                 {
                     this.state.categorylist.map(function (cat){
-                        return <Category key={cat.id} name={cat.name}/>
+                        return <Category key={cat.id} id={cat.id} name={cat.name}/>
                     })
                 }
             </div>

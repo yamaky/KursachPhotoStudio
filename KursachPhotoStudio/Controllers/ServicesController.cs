@@ -27,9 +27,9 @@ namespace KursachPhotoStudio.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Category> GetAll()
+        public IEnumerable<Service> GetAll()
         {
-            return _context.Category.Include(p => p.Service);
+            return _context.Service;
         }
 
         [HttpGet("{id}")]
@@ -102,7 +102,7 @@ namespace KursachPhotoStudio.Controllers
             return NoContent();
         }
 
-        [Authorize(Roles = "admin")]
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
